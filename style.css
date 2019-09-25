@@ -24,7 +24,7 @@ header > h1 {
 
 /* Navigation bar */
 
-.nav {
+.nav-bar {
   display: flex;
   align-content: space-between;
   justify-content: center;
@@ -32,8 +32,8 @@ header > h1 {
 
 .nav-btn {
   display: inline-block;
-  border: 1px solid black;
-  box-shadow: 2px 3px #222;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
   font-size: 2rem;
   padding: 1vh;
   margin: 1vh;
@@ -41,11 +41,11 @@ header > h1 {
 }
 
 .nav-btn:link, .nav-btn:visited {
-  color: #333333;
+  color: #363636;
 }
 
 .nav-btn:hover {
-  color: black;
+  border-color: #b5b5b5;
 }
 
 /* Projects */
