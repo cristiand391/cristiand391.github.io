@@ -2,6 +2,12 @@ html {
   font-size: 10px;
 }
 
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 7px;
+  }
+}
+
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -57,6 +63,12 @@ header > h1 {
   padding: 5% 20%;
 }
 
+@media screen and (max-width: 480px) {
+  .projects {
+    padding: 10% 10%;
+  }
+}
+
 .projects > h2 {
   font-size: 4rem;
   text-align: center;
@@ -71,3 +83,15 @@ header > h1 {
   justify-content: space-around;
 }
 
+@media screen and (max-width: 480px) {
+  .container {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 4vh;
+    font-size: 2.3rem;
+  }
+
+  .container article *{
+    text-align: center;
+  }
+}
