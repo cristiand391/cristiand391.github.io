@@ -70,6 +70,10 @@ body {
   margin-top: 0;
 }
 
+.projects #small {
+  font-size: 0.9em;
+}
+
 .container {
   display: flex;
   font-size: 2rem;
